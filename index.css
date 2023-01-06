@@ -1,0 +1,129 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: cyan;
+    border: 1px solid blue;
+
+
+} 
+.grid-container {
+    display: grid;
+    height: 100%;
+    width: 99%;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    grid-template-rows: 40% 20% 40%;
+    grid-template-columns: 20% 15% 10% 35% 20%;
+}
+.grid-container div {
+    border: 1px solid lightblue;
+ }
+ h1,h4,p{
+     text-align: center;
+     color: white;
+ }
+ h4 {
+     padding-top: 300px;
+ }
+ .a1,.a2,.a3{
+     display:inline-block;
+     padding-left:5px;
+     padding-bottom: 10px;
+     color: white;
+     font-size: 12px;
+ }
+ .a3 {
+     padding-left: 20px;
+ }
+ #a4 {
+     color:lightblue;
+ }
+ img{
+     height:30px;
+     width:30px;
+     background-color: cyan;
+ }
+ li {
+     text-align: left;
+     color: black;
+     padding-bottom: 10px;
+    
+ }
+ .a4{
+     color: black;
+     margin: 10px;
+     text-align: left;
+ }
+ input,label {
+     margin:8px 25px 8px 25px;
+ }
+ header {
+     background-color: dodgerblue;
+     padding: 15px 25px;
+     color: white;
+     text-align: center;
+}
+#para {
+    color: blue;
+    text-align: left;
+    margin-left: 40px;
+}
+.name,.name1,.name2 {
+    color: blue;
+    display: inline;
+    font-size: 10px;
+    padding: 20px;
+    line-height: 20px;
+}
+h3 {
+    color: blue;
+    text-align: center;
+}
+.app {
+    height: 70px;
+    width: 80px;
+    margin: 0px 2px 0px 2px;
+}
+#one {
+    grid-row: 1/4;
+    background-image: url(Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 800px;
+ }
+ #two {
+    grid-column: 2/ span 2;
+    color:blue;
+    text-align: center;
+    padding-top: 10px;
+
+ }
+ #three {
+    padding-left: 20px;
+    color: blue;
+    padding-top: 10px;
+ }
+ #four {
+    grid-column: 5;
+    grid-row: 1/ span 3;
+    background-color: gray;
+ }
+ #five {
+     grid-column: 2/ span 3;
+     color: blue;
+
+ }
+ #six {
+     grid-row:3;
+     grid-column: 2/ span 2;
+     color: blue;
+     text-align: center;
+     padding-top: 10px;
+  
+}
+ #seven {
+    color: blue;
+    text-align: center;
+    padding-top: 10px;
+ }  
